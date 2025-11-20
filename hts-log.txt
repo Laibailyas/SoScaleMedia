@@ -1,0 +1,26 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 12 Nov 2025 16:04:13 at https://www.soscalemedia.se/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0T60R3H0%kf2A100000%f#f -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.soscalemedia.se/ -O1 "C:\Users\patel\OneDrive\Desktop\here\soscalemedia" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:04:34	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.soscalemedia.se/)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a323a1c68594827fa0ce65_Selahatin Best Static Ads 1080x1920 B (1 (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a323a1c68594827fa0ce64_AD 1 Quote 1080x1080.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a323a1c68594827fa0ce63_Sisterly Tribe Best Static Ads 1080x1920 A.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a323a1c68594827fa0ce66_Atunya Best Static Ads 1080x1920 A.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a46915c7dd47c881a17f6e_COFFYDOOR C1 1080x1920.png" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a4693d91cb3421bdbe5212_Dense Nutrition Best Static Ads 1080x1920 A.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a4695d857a24b0e1b8cfe9_Furry Family Iteration A 2024 Presentation.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a469914f6017640bb3cc54_HEAT By Sophia Lie Best Static Ads 1080x1920 B.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a469a925cda1c5f622f100_Imove Best Static Ads 1080x1920 A.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a46c1beefd261b0ad25616_Lifeseeds Best Static Ads 1080x1920 A.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a46c56fec8e1a2bd27767a_Sachajuan Best Static Ads 1080x1920 A.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a46c84e115f8b6dae9bf7c_Sachajuan Best Static Ads 1080x1920 B.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a46ca7cd3331cd0be332c4_Lifeseeds Master Document Slide 102.webp" (from https://www.soscalemedia.se/static-ads)
+16:05:35	Error: 	"Not Found" (404) at link https://www.soscalemedia.se/"https://cdn.prod.website-files.com/67a323a1c68594827fa0ccce/67a46c30389bfb55c32dc29c_Narcyss Aug 2024 Presentation Page 7B.webp" (from https://www.soscalemedia.se/static-ads)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 23 seconds : 189 links scanned, 173 files written (86240839 bytes overall), 173 files updated [83726113 bytes received at 1008748 bytes/sec], 4082219 bytes transferred using HTTP compression in 74 files, ratio 24%, 5.7 requests per connection
+(15 errors, 0 warnings, 0 messages)
