@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Book Your Consultation</title>
+    <title>Careers | SoScale</title>
     <meta content="Performance marketing agency without media buyers" name="description" />
     <meta content="SoScale | Because content is what matters" property="og:title" />
     <meta content="Performance marketing agency without media buyers" property="og:description" />
@@ -119,7 +119,7 @@
 
 
 
-    <style>
+    <!-- <style>
         :root {
             --accent: #dfc1ff;
             --muted: #bfbfbf;
@@ -244,9 +244,9 @@
                 grid-template-columns: 1fr;
             }
         }
-    </style>
+    </style> -->
 
-
+    <link rel="stylesheet" href="career.css">
 
 
 </head>
@@ -608,71 +608,105 @@
 
 
 
-    <div class="wrap">
-        <form class="card" method="POST" action="#">
-            <h1>Book Your Consultation</h1>
-            <p class="lead">Choose a time and tell us a little about your needs — we’ll get back to you.</p>
+    <!-- HERO -->
+    <section class="career-hero">
+        <div class="hero-inner">
+            <span class="tag">Careers at SoScale</span>
+            <h1>Grow With a Team<br>That Builds Impact</h1>
+            <p>
+                We collaborate with ambitious brands worldwide.
+                If you value creativity, performance, and growth — you belong here.
+            </p>
+        </div>
+    </section>
 
-            <div class="grid">
-
-                <div>
-                    <label for="name">Full name</label>
-                    <input id="name" name="name" type="text" placeholder="e.g. Ahmad Khan" required>
-                </div>
-
-                <div>
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" placeholder="you@example.com" required>
-                </div>
-
-                <div>
-                    <label for="phone">Phone (optional)</label>
-                    <input id="phone" name="phone" type="tel" placeholder="+92 300 0000000">
-                </div>
-
-                <!-- UPDATED SERVICES -->
-                <div>
-                    <label for="service">Service type</label>
-                    <select id="service" name="service" required>
-                        <option value="">Select a service</option>
-
-                        <option>Search Elegance Optimization (SEO)</option>
-                        <option>Generative Intelligence Optimization (GEO)</option>
-                        <option>Bespoke Web Design & Development</option>
-                        <option>Tailored Mobile App Experiences</option>
-                        <option>AI Automation Architecture</option>
-                        <option>UGC Curation & Brand Influence</option>
-                        <option>Fine Art Photography & Cinematic Production</option>
-                        <option>Luxury Branding & Creative Direction</option>
-                        <option>Performance Marketing Excellence</option>
-                        <option>Elite E-Commerce Solutions</option>
-                        <option>Social Media Prestige Management</option>
-                    </select>
-                </div>
-
-                <div class="full">
-                    <label for="datetime">Preferred date & time</label>
-                    <input id="datetime" name="datetime" type="datetime-local">
-                </div>
-
-                <div class="full">
-                    <label for="message">Message / Brief</label>
-                    <textarea id="message" name="message" placeholder="Any details we should know..."></textarea>
-                </div>
-
+    <!-- WHY SOSCALE -->
+    <section class="career-about">
+        <div class="about-grid">
+            <div>
+                <h2>Why Join SoScale?</h2>
+                <p>
+                    At SoScale, we combine strategy, creativity, and performance to
+                    scale brands in competitive markets. You’ll work on real projects,
+                    real challenges, and real growth.
+                </p>
             </div>
 
-            <div
-                style="margin-top:16px; display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap;">
-                <button type="submit" class="btn">Book Consultation</button>
-                <div class="small">We will reply within 1–2 business days.</div>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>300+</h3>
+                    <span>Projects Delivered</span>
+                </div>
+                <div class="stat">
+                    <h3>70+</h3>
+                    <span>Active Clients</span>
+                </div>
+                <div class="stat">
+                    <h3>6K+</h3>
+                    <span>Campaigns Optimized</span>
+                </div>
             </div>
-        </form>
-    </div>
+        </div>
+    </section>
 
+    <!-- OPEN ROLES -->
+    <section class="career-roles">
+        <h2>Open Positions</h2>
 
+        <div class="roles-grid">
+            <div class="role-card">
+                <h4>Frontend Developer</h4>
+                <p>HTML, CSS, JavaScript, modern UI practices</p>
+            </div>
 
+            <div class="role-card">
+                <h4>UI/UX Designer</h4>
+                <p>Web & mobile design, user-focused experiences</p>
+            </div>
 
+            <div class="role-card">
+                <h4>Digital Marketer</h4>
+                <p>Performance marketing, analytics, growth strategy</p>
+            </div>
+
+            <div class="role-card">
+                <h4>Content Writer</h4>
+                <p>Brand storytelling, web & social content</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPLY FORM -->
+    <section class="career-apply">
+        <div class="apply-box">
+            <h2>Apply for This Role</h2>
+            <p>
+                Share your details and portfolio.
+                Our team will review and get back to you.
+            </p>
+
+            <form class="career-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <select required>
+                    <option value="">Select Position</option>
+                    <option>Frontend Developer</option>
+                    <option>UI/UX Designer</option>
+                    <option>Digital Marketer</option>
+                    <option>Content Writer</option>
+                </select>
+
+                <input type="file" required>
+
+                <textarea placeholder="Why should we hire you?"></textarea>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </section>
 
     <section class="footer">
         <div class="footer-wrapper-top">
